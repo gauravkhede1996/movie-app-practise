@@ -6,7 +6,7 @@ import './index.css';
 import movies from './reducer';
 
 const store=createStore(movies);
-// console.log("store: ",store);
+console.log("store: ",store);
 // console.log("Before dispatch ",store.getState());
 // store.dispatch({
 //   type:'ADD_MOVIES',
